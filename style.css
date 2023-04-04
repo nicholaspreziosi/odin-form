@@ -1,0 +1,118 @@
+body {
+    background-color: #f9fafb;
+    margin: 0;
+}
+
+body, button, input {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.content {
+    background-color: #f6f6f7;
+    width: calc(100vw - 536px);
+    height: 100vh;
+    left: 500px;
+    position: relative;
+    padding-left: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hero {
+    background-image: url("OregonBeachTree.jpg");
+    height: 100vh;
+    width: 500px;
+    background-size: cover;
+}
+
+p {
+    font-size: 1.5rem;
+    max-width: 620px;
+}
+
+.form-info {
+    background-color: white;
+    box-shadow: 0px 3px 8px -2px #565d6899;
+    margin-left: -36px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    gap: 60px;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset > p {
+    margin-left: 30px;
+}
+
+label {
+    color: #565d68;
+    font-size: 0.75rem;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    font-size: 1rem;
+    padding: 6px;
+    border-radius: 3px;
+    width: 250px;
+}
+
+button {
+    background-color: #596d48;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 12px 36px;
+    font-size: 1rem;
+    margin-top: 36px;
+}
+
+label, button {
+    font-weight: 500;
+}
+
+.img-text {
+    font-size: 6rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 200px;
+    width: 500px;
+    color: white;
+    position: absolute;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    background-position: center top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+img[src="odin-lined.png"] {
+    height: 150px;
+    width: auto;
+}
+
+.credit {
+    font-size: 1rem;
+    color: white;
+    position: absolute;
+    width: 500px;
+    top: 97%;
+    left: 170px;
+}
+
+.header-text {
+    padding-bottom: 24px;
+}
