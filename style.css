@@ -4,7 +4,7 @@ body {
 }
 
 body, button, input {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .content {
@@ -30,6 +30,7 @@ body, button, input {
 
 p {
     font-size: 1.5rem;
+    font-weight:bolder;
     max-width: 620px;
 }
 
@@ -109,10 +110,29 @@ img[src="odin-lined.png"] {
     color: white;
     position: absolute;
     width: 500px;
-    top: 97%;
-    left: 170px;
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) );
+    bottom: 2%;
+    text-align: center;
 }
 
 .header-text {
     padding-bottom: 24px;
+}
+
+
+input:focus {
+    border: 2px solid blue;
+    box-shadow: 0px 5px 8px -2px #565d6899;
+}
+
+.error {
+    border: 2px solid red;
+    box-shadow: 0px 5px 8px -2px #565d6899;
+}
+
+#error-message {
+    font-size: 8pt;
+    font-weight: normal;
+    color: red;
+    margin-top: -12px;
 }
